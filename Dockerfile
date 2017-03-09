@@ -1,7 +1,7 @@
 FROM nubomedia/apps-baseimage:src
 
 MAINTAINER Nubomedia
-
+USER root
 RUN apk add --no-cache mysql-client
 
 ADD . /home/nubomedia
